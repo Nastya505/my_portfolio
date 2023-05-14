@@ -6,6 +6,7 @@
 }
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 240px;
 }
 body{
     overflow-x: hidden;
@@ -97,7 +98,7 @@ body{
     font-weight: var(--fw-extrabold);
     color: var(--color-text-main);
     margin-top: 6rem ;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 .first-letter-title{
@@ -474,6 +475,7 @@ body{
     }
     .contacts-sosials__link::before{
         border-width: 1rem;
+        border-radius:  px 0 20px 0;
     }
 }
 /*---------FOOTER-------------*/
