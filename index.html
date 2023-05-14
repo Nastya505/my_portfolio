@@ -5,46 +5,210 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
     <title>Portfolio</title>
 </head>
 <body>
-    
-    <div class="menu">
-		<div class="title"><h1>NAVIGATION</h1></div>
-		<div class="list_menu">
-			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">About me</a></li>
-				<li><a href="">Portfolio</a></li>
-				<li><a href="">Contact</a></li>
-			</ul>
-		</div>
-		<div class="footer_menu">
-			<p>©AF 2023</p>
-		</div>
-	</div>
+<!----NAVIGATION---->
+<nav class="menu">
+    <h1 class="menu-title">НАВИГАЦИЯ</h1>
+    <ul class="menu-list">
+        <li><a class="menu-list__link" href="">обо мне</a></li>
+        <li><a class="menu-list__link" href="">проекты</a></li>
+        <li><a class="menu-list__link" href="">контакты</a></li>
+    </ul>
+    <div class="menu-footer">©2023  aff.</div>
+</nav>
+<!-----MAIN----->
 <main class="main">
-    <div class="bg1"></div>
-    <div class="bg1 bg2"></div>
-    <div class="bg1 bg3"></div>
-    <div class="content">
-       <div class="overlap">
-            <span class="overlap__item">P</span>
-            <span class="overlap__item">O</span>
-            <span class="overlap__item">R</span>
-            <span class="overlap__item">T</span>
-            <span class="overlap__item">F</span>
-            <span class="overlap__item">O</span>
-            <span class="overlap__item">L</span>
-            <span class="overlap__item">I</span>
-            <span class="overlap__item">O</span>
-        </div>
+    <!--ANIMATION--->
+    <div class="main-bg1"></div>
+    <div class="main-bg1 main-bg2"></div>
+    <div class="main-bg1 main-bg3"></div>
+    <div class="main-title">
+        <span class="main-title__item">P</span>
+        <span class="main-title__item">O</span>
+        <span class="main-title__item">R</span>
+        <span class="main-title__item">T</span>
+        <span class="main-title__item">F</span>
+        <span class="main-title__item">O</span>
+        <span class="main-title__item">L</span>
+        <span class="main-title__item">I</span>
+        <span class="main-title__item">O</span>
     </div>
 </main>
+
+<!---ABOUTME---->
+<div class="container">
+    <section class="aboutme">
+        <div class="aboutme-info">
+            <img class="aboutme-info__photo" src="./images/avatar.png" alt="photo" >
+            <div class="aboutme-info__content">
+                <h3>Привет!</h3>
+                Меня зовут Анастасия, мне 18 лет и я <b class="first-letter-title">frontend-разработчик</b>.
+                Учусь на 2 курсе в Новосибиском колледже печати и информационных технологий на специальности "Информационные системы и программирование".
+            </div>
+        </div>
+        <div class="amoutme-btn">
+            <a href="#contacts" class="btn__item">связаться со мной</a>
+            <a href="./images/RESUME.pdf" class="btn__item" download="resume_fedorova_anastasia">скачать резюме</a>
+        </div>
+    </section>
+</div>
+
+<!--SKILLS-->
+<div class="container">
+     <div class="section">
+            <div class="section-title"><b class="first-letter-title">Н</b>авыки</div>
+        </div>
+        <section class="skills">
+            <div class="skills-card">
+                <div class="skills-card-face face1">
+                    <img class="skills-card__icon" src="./images/html.png" alt="html">
+                </div>
+                <div class="skills-card-face face2">
+                    <div class="skills-card__content">
+                        <h3>HTML </h3>
+                       <p>Уверенное пользование. Придерживаюсь методологии БЭМ.</p>                        
+                    </div>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-face face1">
+                    <img class="skills-card__icon" src="./images/css.png" alt="css">
+                </div>
+                <div class="skills-card-face face2">
+                    <div class="skills-card__content">
+                        <h3>CSS</h3>
+                      <p>Уверенное пользование. Работаю с использованием переменных.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-face face1">
+                    <img class="skills-card__icon" src="./images/js.png" alt="js">
+                </div>
+                <div class="skills-card-face face2">
+                    <div class="skills-card__content">
+                        <h3>JS</h3> 
+                        <p> Умение пользоваться среднее. Изучала самостоятельно по видео урокам и по справочнику.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-face face1">
+                    <img class="skills-card__icon" src="./images/cs.png" alt="c#">
+                </div>
+                <div class="skills-card-face face2">
+                    <div class="skills-card__content">
+                        <h3>C#</h3>
+                       <p>Уверенное пользование. Изучала самостоятельно на онлайн-курсе по с#.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-face face1">
+                    <img class="skills-card__icon" src="./images/python.png" alt="python">
+                </div>
+                <div class="skills-card-face face2">
+                    <div class="skills-card__content">
+                       <h3>PYTHON</h3>
+                      <p>Уверенное пользование. Знаю фреймворк FastAPI.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-face face1">
+                    <img class="skills-card__icon" src="./images/figma.png" alt="figma">
+                </div>
+                <div class="skills-card-face face2">
+                    <div class="skills-card__content">
+                        <h3>FIGMA</h3>
+                       <p>Уверенное пользование. Универсальный онлайн-сервис, подходящий для различных задач.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-face face1">
+                    <img class="skills-card__icon" src="./images/git.png" alt="git">
+                </div>
+                <div class="skills-card-face face2">
+                    <div class="skills-card__content">
+                       <h3>GIT</h3>
+                       <p>Уверенное пользование. Изучила в колледже. Также умею пользоваться GitHub и GitLab.</p>                        
+                    </div>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-face face1">
+                    <img class="skills-card__icon" src="./images/bd.png" alt="base data">
+                </div>
+                <div class="skills-card-face face2">
+                    <div class="skills-card__content">
+                       <h3>БАЗЫ ДАННЫХ</h3> 
+                       <p> Уверенное пользование. Изучила в колледже. Работаю с postgreSQL.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-card">
+                <div class="skills-card-face face1">
+                    <img class="skills-card__icon" src="./images/unity.png" alt="unity">
+                </div>
+                <div class="skills-card-face face2">
+                    <div class="skills-card__content">
+                        <h3>UNITY</h3>
+                        <p>Умение пользоваться среднее. Заинтересовалась разработкой игр и начала изучать самостоятельно.</p>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+</div>        
+
+<!-----PROJECT------>
+<div class="container">
+    <div class="section">
+    <div class="section-title"><b class="first-letter-title">П</b>роекты</div>
+    </div>
+    <section class="projects">
+        <div class="projects-wrapper">
+            <div class="projects-item">
+            <a href="#"><img class="projects-item__view"  src="./images/project1.png" alt=""></a>
+            <p class="projects-item__title">Верстка сайта</p>
+            </div>
+            <div class="projects-item">
+                <a href="#"><img class="projects-item__view"  src="./images/space.png" alt=""></a>
+                <p class="projects-item__title">Макет в фигме</p>
+            </div>
+            <div class="projects-item">
+                <a href="#"><img class="projects-item__view"  src="./images/rickandmorty.png" alt=""></a>
+                <p class="projects-item__title">Верстка сайта</p>
+            </div>
+            <div class="projects-item">
+                <a href="#"><img class="projects-item__view"  src="./images/portfolio.png" alt=""></a>
+                <p class="projects-item__title">Верстка сайта портфолио</p>
+            </div>
+        </div>
+         <div id="show-more" class="btn__item" >смотреть больше</div>
+    </section>
    
-           
-                
-            
-    <section class="main"></section>
+</div>
+
+<!---CONTACTS--->
+<div class="container">
+    <div class="section">
+        <div class="section-title"><b class="first-letter-title">C</b>вязаться со мной</div>
+    </div>
+    <section class="contacts" id="contacts">
+        <div class="contacts-sosials">
+            <a class="contacts-sosials__link" href="https://vk.com/ananistisch"><img src="./images/vk.png" alt="vk"></a>
+            <a class="contacts-sosials__link" href="https://t.me/ANASTAssssssssssss"><img src="./images/telegram.png" alt="telegram"></a>
+            <a class="contacts-sosials__link" href="mailto:555.555.555.anastasie@gmail.com"><img src="./images/gmail.png" alt="gmail"></a>
+        </div>
+    </section>   
+</div>   
+<!---FOOTER---->             
+<footer class="footer">
+   <p><b class="first-letter-title">a</b>ff.</p> 
+</footer>        
 </body>
 </html>
