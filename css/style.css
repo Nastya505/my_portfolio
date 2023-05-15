@@ -182,7 +182,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 80vw;
+    max-width: 90vw;
     gap: 2rem;
     margin-bottom: 5rem;
     transition: all 1s;
@@ -212,7 +212,7 @@ body{
     align-items: center;
 }
 .btn__item{
-    padding: 1.8vh 8vw;
+    padding: 2vh 8vw;
     background-color: var(--color-details);
     color: var(--color-text-main);
     font-family: var(--ff);
@@ -221,7 +221,7 @@ body{
     text-decoration: none;
     border-radius: 20px;
     margin: 0 1rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+ 
     transition: all .5s;
 }
 .btn__item:hover{
@@ -231,11 +231,12 @@ body{
 @media(max-width: 782px){
     .btn__item{
         font-size: calc(var(--fs-small) / 2);
+        padding:  1.5vh 6vw;
     }
 }
 @media(max-width: 479px){
     .btn__item{
-        font-size: calc(var(--fs-small) / 3.5);
+        font-size: calc(var(--fs-small) / 3);
     }
     .aboutme-info{
         margin-bottom: 3rem;
@@ -474,8 +475,8 @@ body{
         padding: 20px;
     }
     .contacts-sosials__link::before{
-        border-width: 1rem;
-        border-radius:  px 0 20px 0;
+        border-width: 1.1rem;
+        border-radius:  18px 0 20px 0;
     }
 }
 /*---------FOOTER-------------*/
