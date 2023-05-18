@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="/icon.ico">
     <script src="./js/script.js" defer></script>
     <title>Portfolio</title>
 </head>
@@ -17,24 +18,24 @@
         <li><a class="menu-list__link" href="#projects">проекты</a></li>
         <li><a class="menu-list__link" href="#contacts-sosials">контакты</a></li>
     </ul>
-    <div class="menu-footer">©2023  aff.</div>
+    <div class="copyright">©2023  aff.</div>
 </nav>
-<!-----MAIN----->
-<main class="main">
+<!-----HEADER----->
+<main class="header">
     <!--ANIMATION--->
-    <div class="main-bg1"></div>
-    <div class="main-bg1 main-bg2"></div>
-    <div class="main-bg1 main-bg3"></div>
-    <div class="main-title">
-        <span class="main-title__item">P</span>
-        <span class="main-title__item">O</span>
-        <span class="main-title__item">R</span>
-        <span class="main-title__item">T</span>
-        <span class="main-title__item">F</span>
-        <span class="main-title__item">O</span>
-        <span class="main-title__item">L</span>
-        <span class="main-title__item">I</span>
-        <span class="main-title__item">O</span>
+    <div class="header-bg1"></div>
+    <div class="header-bg1 header-bg2"></div>
+    <div class="header-bg1 header-bg3"></div>
+    <div class="header-title">
+        <span class="header-title__item">P</span>
+        <span class="header-title__item">O</span>
+        <span class="header-title__item">R</span>
+        <span class="header-title__item">T</span>
+        <span class="header-title__item">F</span>
+        <span class="header-title__item">O</span>
+        <span class="header-title__item">L</span>
+        <span class="header-title__item">I</span>
+        <span class="header-title__item">O</span>
     </div>
 </main>
 
@@ -64,7 +65,7 @@
         <section class="skills">
             <div class="skills-card">
                 <div class="skills-card-face face1">
-                    <img class="skills-card__icon" src="./images/html.png" alt="html">
+                    <img class="skills-card__icon" src="./images/html.svg" alt="html">
                 </div>
                 <div class="skills-card-face face2">
                     <div class="skills-card__content">
@@ -75,7 +76,7 @@
             </div>
             <div class="skills-card">
                 <div class="skills-card-face face1">
-                    <img class="skills-card__icon" src="./images/css.png" alt="css">
+                    <img class="skills-card__icon" src="./images/css.svg" alt="css">
                 </div>
                 <div class="skills-card-face face2">
                     <div class="skills-card__content">
@@ -86,7 +87,7 @@
             </div>
             <div class="skills-card">
                 <div class="skills-card-face face1">
-                    <img class="skills-card__icon" src="./images/js.png" alt="js">
+                    <img class="skills-card__icon" src="./images/js.svg" alt="js">
                 </div>
                 <div class="skills-card-face face2">
                     <div class="skills-card__content">
@@ -97,7 +98,7 @@
             </div>
             <div class="skills-card">
                 <div class="skills-card-face face1">
-                    <img class="skills-card__icon" src="./images/cs.png" alt="c#">
+                    <img class="skills-card__icon" src="./images/cs.svg" alt="c#">
                 </div>
                 <div class="skills-card-face face2">
                     <div class="skills-card__content">
@@ -108,7 +109,7 @@
             </div>
             <div class="skills-card">
                 <div class="skills-card-face face1">
-                    <img class="skills-card__icon" src="./images/python.png" alt="python">
+                    <img class="skills-card__icon" src="./images/python.svg" alt="python">
                 </div>
                 <div class="skills-card-face face2">
                     <div class="skills-card__content">
@@ -119,7 +120,7 @@
             </div>
             <div class="skills-card">
                 <div class="skills-card-face face1">
-                    <img class="skills-card__icon" src="./images/figma.png" alt="figma">
+                    <img class="skills-card__icon" src="./images/figma.svg" alt="figma">
                 </div>
                 <div class="skills-card-face face2">
                     <div class="skills-card__content">
@@ -130,7 +131,7 @@
             </div>
             <div class="skills-card">
                 <div class="skills-card-face face1">
-                    <img class="skills-card__icon" src="./images/git.png" alt="git">
+                    <img class="skills-card__icon" src="./images/git.svg" alt="git">
                 </div>
                 <div class="skills-card-face face2">
                     <div class="skills-card__content">
@@ -141,7 +142,7 @@
             </div>
             <div class="skills-card">
                 <div class="skills-card-face face1">
-                    <img class="skills-card__icon" src="./images/bd.png" alt="base data">
+                    <img class="skills-card__icon" src="./images/bd.svg" alt="base data">
                 </div>
                 <div class="skills-card-face face2">
                     <div class="skills-card__content">
@@ -152,7 +153,7 @@
             </div>
             <div class="skills-card">
                 <div class="skills-card-face face1">
-                    <img class="skills-card__icon" src="./images/unity.png" alt="unity">
+                    <img class="skills-card__icon" src="./images/unity.svg" alt="unity">
                 </div>
                 <div class="skills-card-face face2">
                     <div class="skills-card__content">
@@ -173,19 +174,23 @@
         <div class="projects-wrapper">
             <div class="projects-item">
             <a href="#"><img class="projects-item__view"  src="./images/project1.png" alt=""></a>
-            <p class="projects-item__title">Верстка сайта</p>
+            <p class="projects-item__title">Верстка сайта "The Sculpture Studio"</p>
             </div>
             <div class="projects-item">
-                <a href="#"><img class="projects-item__view"  src="./images/space.png" alt=""></a>
-                <p class="projects-item__title">Макет в фигме</p>
-            </div>
-            <div class="projects-item">
-                <a href="#"><img class="projects-item__view"  src="./images/rickandmorty.png" alt=""></a>
-                <p class="projects-item__title">Верстка сайта</p>
+                <a href="https://nastya505.github.io/Rick-and-Morty/"><img class="projects-item__view"  src="./images/rickandmorty.png" alt=""></a>
+                <p class="projects-item__title">Верстка сайта "Rick and Morty"</p>
             </div>
             <div class="projects-item">
                 <a href="#"><img class="projects-item__view"  src="./images/portfolio.png" alt=""></a>
                 <p class="projects-item__title">Верстка сайта портфолио</p>
+            </div>
+            <div class="projects-item">
+                <a href="https://vk.com/public219770526"><img class="projects-item__view"  src="./images/lama_develop.png" alt=""></a>
+                <p class="projects-item__title">Разработка дизайна для ВК сообщества</p>
+            </div>
+            <div class="projects-item">
+                <a href="https://nastya505.github.io/YoKo/"><img class="projects-item__view"  src="./images/yoko.png" alt=""></a>
+                <p class="projects-item__title">Bootstrap верстка интернет-магазина "YoKo"</p>
             </div>
         </div>
          <div id="show-more" class="btn__item" >смотреть больше</div>
@@ -199,14 +204,17 @@
         <div class="section-title"><b class="first-letter-title">C</b>вязаться со мной</div>
     </div>
     <section class="contacts-sosials" id="contacts-sosials">
-            <a class="contacts-sosials__link" href="https://vk.com/ananistisch"><img src="./images/vk.png" alt="vk"></a>
-            <a class="contacts-sosials__link" href="https://t.me/ANASTAssssssssssss"><img src="./images/telegram.png" alt="telegram"></a>
-            <a class="contacts-sosials__link" href="mailto:555.555.555.anastasie@gmail.com"><img src="./images/gmail.png" alt="gmail"></a>
+            <a class="contacts-sosials__link" href="https://vk.com/ananistisch"><img src="./images/vk.svg" alt="vk"></a>
+            <a class="contacts-sosials__link" href="https://t.me/ANASTAssssssssssss"><img src="./images/telegram.svg" alt="telegram"></a>
+            <a class="contacts-sosials__link" href="mailto:555.555.555.anastasie@gmail.com"><img src="./images/gmail.svg" alt="gmail"></a>
     </section>   
 </div>   
 <!---FOOTER---->             
-<footer class="footer">
-   <p><b class="first-letter-title">a</b>ff.</p> 
-</footer>        
+<div class="content">
+    <footer class="footer">
+         <div class="copyright">©2023</div>
+        <div class="footer__logo"><b class="first-letter-title">a</b>ff.</div> 
+    </footer>        
+</div>
 </body>
 </html>
