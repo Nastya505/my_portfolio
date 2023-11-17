@@ -397,8 +397,7 @@ body{
     transition: all 1s;
 }
 .projects-item:hover .projects-item__view{
-    width: 98%;
-    height: 98%;
+    transform: scale(.94);
 }
 .projects-item__view{
     border-radius: 20px;
