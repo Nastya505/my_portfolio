@@ -6,6 +6,7 @@
 }
 html{
     scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
     scroll-padding-top: 240px;
     touch-action: manipulation;
     height: 100%;
