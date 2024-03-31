@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 html{
+    overflow: hidden;
+    height: 100%;
     scroll-behavior: smooth;
     scroll-padding-top: 240px;
 }
